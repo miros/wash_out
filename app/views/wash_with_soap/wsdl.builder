@@ -5,7 +5,7 @@ xml.definitions 'xmlns' => 'http://schemas.xmlsoap.org/wsdl/',
                 'xmlns:xsd' => 'http://www.w3.org/2001/XMLSchema',
                 'xmlns:xsi' => 'http://www.w3.org/2001/XMLSchema-instance',
                 'xmlns:soap-enc' => 'http://schemas.xmlsoap.org/soap/encoding/',
-                'xmlns:wsdl' => 'http://schemas.xmlsoap.org/wsdl/',
+                'xmlns:wsdl' => 'http://schemas.xmlsoap.org/soap/envelope/',
                 'name' => @name,
                 'targetNamespace' => @namespace do
   xml.types do
